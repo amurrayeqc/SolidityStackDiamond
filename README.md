@@ -26,7 +26,7 @@ With SolidityStackDiamond, you get a lightweight tool that stays out of your way
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/harutosati/SolidityStackDiamond.git`
+1. Clone the repository: `git clone https://github.com/centxyz/SolidityStackDiamond.git`
 2. Install required dependencies: `pip install -r requirements.txt`
 
 ## Configuration
@@ -42,4 +42,4 @@ Pull requests and issue reports are both welcome. Please read the existing code 
 
 ## License
 
-Released under the MIT License — see the [LICENSE](https://github.com/harutosati/SolidityStackDiamond/blob/main/LICENSE) file.
+Released under the MIT License — see the [LICENSE](https://github.com/centxyz/SolidityStackDiamond/blob/main/LICENSE) file.
