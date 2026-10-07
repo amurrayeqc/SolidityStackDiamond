@@ -59,7 +59,9 @@ class Server {
     }
 }
 
-const server = new Server(process.env.PORT || 3000);
-server.start();
+if (require.main === module) {
+    const server = new Server(process.env.PORT || 3000);
+    server.start();
+}
 
 module.exports = { Server };
