@@ -1,8 +1,8 @@
-# SolidityStackDiamond
+# SolcQueue
 
-[![CI](https://github.com/centxyz/SolidityStackDiamond/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/SolidityStackDiamond/actions/workflows/ci.yml)
+[![CI](https://github.com/centxyz/SolcQueue/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/SolcQueue/actions/workflows/ci.yml)
 
-SolidityStackDiamond is a production-oriented Solidity compilation service. It turns Solidity source into ABI, creation bytecode, deployed bytecode, compiler metadata, diagnostics, and a reproducible source hash through either a synchronous HTTP call or an asynchronous worker queue.
+SolcQueue is a production-oriented Solidity compilation service. It turns Solidity source into ABI, creation bytecode, deployed bytecode, compiler metadata, diagnostics, and a reproducible source hash through either a synchronous HTTP call or an asynchronous worker queue.
 
 ## What it does
 
@@ -24,8 +24,8 @@ It is a build and processing service. It does not deploy contracts, manage priva
 ## Install
 
 ```bash
-git clone https://github.com/centxyz/SolidityStackDiamond.git
-cd SolidityStackDiamond
+git clone https://github.com/centxyz/SolcQueue.git
+cd SolcQueue
 npm install
 npm test
 npm start
