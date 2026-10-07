@@ -1,7 +1,7 @@
 {
   "name": "soliditystackdiamond",
   "version": "1.0.0",
-  "description": "SolidityStackDiamond - Node.js REST API",
+  "description": "SolidityStackDiamond HTTP starter service with health, data, and JSON transformation endpoints",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

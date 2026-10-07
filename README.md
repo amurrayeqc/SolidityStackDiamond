@@ -1,45 +1,30 @@
-<!-- fallback_SolidityStackDiamond_20260901140526_24277 -->
-
 # SolidityStackDiamond
 
-SolidityStackDiamond: A decentralized, blockchain-based framework for real-time data processing and auto-scaling smart contract applications.
+SolidityStackDiamond is a small Express HTTP starter service. It provides a health check, returns an in-memory empty data collection, and transforms posted JSON by adding processing metadata. It does not implement a blockchain, message queue, distributed network, or persistent database.
 
-With SolidityStackDiamond, you get a lightweight tool that stays out of your way.
+## Install and run
 
-**What you get**
+```bash
+git clone https://github.com/centxyz/SolidityStackDiamond.git
+cd SolidityStackDiamond
+npm install
+npm start
+```
 
-- SolidityStackDiamond: A decentralized, blockchain-based framework
-- for real-time data processing and
-- auto-scaling smart contract applications
+The default port is `3000`; set `PORT` to override it.
 
-## Key Features
+## Endpoints
 
-- SolidityStackDiamond: A decentralized, blockchain-based framework
-- for real-time data processing and
-- auto-scaling smart contract applications
+- `GET /health` — service health
+- `GET /api/data` — current in-memory data response
+- `POST /api/process` — echoes and marks a JSON object as processed
 
-## Technology Stack
+## Test
 
-- python
-- Modular architecture
-- CI-ready (GitHub Actions)
-
-## Installation
-
-1. Clone the repository: `git clone https://github.com/centxyz/SolidityStackDiamond.git`
-2. Install required dependencies: `pip install -r requirements.txt`
-
-## Configuration
-
-Most behavior is controlled via command-line flags:
-- `--verbose`: enable detailed logging
-- `--config <path>`: point to a custom config file
-- `--dry-run`: preview changes without applying them
-
-## Contributing
-
-Pull requests and issue reports are both welcome. Please read the existing code style before submitting.
+```bash
+npm test
+```
 
 ## License
 
-Released under the MIT License — see the [LICENSE](https://github.com/centxyz/SolidityStackDiamond/blob/main/LICENSE) file.
+MIT
