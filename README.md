@@ -105,3 +105,9 @@ The suite compiles a real contract and verifies bytecode/ABI output, compiler di
 ## License
 
 MIT © cent
+
+## Current limitations
+
+- Compilation success does not imply contract correctness or security.
+- The in-memory job queue and metrics are scoped to one running service instance.
+- The service does not manage keys, deploy contracts, or provide chain consensus.
