@@ -1,18 +1,21 @@
 {
   "name": "soliditystackdiamond",
-  "version": "1.0.0",
-  "description": "SolidityStackDiamond HTTP starter service with health, data, and JSON transformation endpoints",
+  "version": "2.0.0",
+  "description": "Solidity compilation API with queued jobs, live events, and adaptive workers",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/*.test.js",
+    "test:watch": "node --test --watch tests/*.test.js"
   },
   "keywords": [
     "nodejs",
     "express",
     "api",
+    "solidity",
+    "compiler",
+    "smart-contracts",
     "soliditystackdiamond"
   ],
   "author": "cent",
@@ -20,11 +23,10 @@
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "solc": "^0.8.30"
   },
   "devDependencies": {
-    "jest": "^29.7.0",
-    "nodemon": "^3.0.1",
-    "supertest": "^6.3.3"
+    "supertest": "^7.1.3"
   }
 }
