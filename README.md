@@ -1,5 +1,7 @@
 # SolidityStackDiamond
 
+[![CI](https://github.com/centxyz/SolidityStackDiamond/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/SolidityStackDiamond/actions/workflows/ci.yml)
+
 SolidityStackDiamond is a production-oriented Solidity compilation service. It turns Solidity source into ABI, creation bytecode, deployed bytecode, compiler metadata, diagnostics, and a reproducible source hash through either a synchronous HTTP call or an asynchronous worker queue.
 
 ## What it does
